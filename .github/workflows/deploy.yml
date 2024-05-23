@@ -41,5 +41,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Wait for deployment to finish
+        run: npx wait-on https://r-boiko.github.io/accessibility-integration/
+
       - name: Run Pa11y CI
         run: npm run test:accessibility
