@@ -1,8 +1,0 @@
-{
-  "defaults": {
-    "standard": "WCAG2AA"
-  },
-  "urls": [
-    "http://localhost:5173/accessibility-integration"
-  ]
-}
