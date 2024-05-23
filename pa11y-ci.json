@@ -1,15 +1,8 @@
 {
-  "urls": [
-    "https://pa11y.org/"
-  ],
   "defaults": {
-    "timeout": 30000,
-    "wait": 500,
-    "log": {
-      "level": "debug"
-    }
+    "standard": "WCAG2AA"
   },
-  "runners": [
-    "axe"
+  "urls": [
+    "http://localhost:5173/accessibility-integration"
   ]
 }
