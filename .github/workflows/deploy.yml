@@ -29,3 +29,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+      - name: Run Pa11y accessibility tests
+        run: npx pa11y https://r-boiko.github.io/accessibility-integration/
