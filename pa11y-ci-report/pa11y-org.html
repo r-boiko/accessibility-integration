@@ -243,18 +243,18 @@
 <body>
 	<main>
 		<h1>Pa11y results for "https://pa11y.org/"</h1>
-		<h2>Generated at: Thu May 23 2024 19:52:56 GMT+0300 (Eastern European Summer Time)</h2>
-		<h2>Runners (with issues): axe</h2>
+		<h2>Generated at: Thu May 23 2024 20:02:25 GMT+0300 (Eastern European Summer Time)</h2>
+		<h2>Runners (with issues): axe, htmlcs</h2>
 
 		<p class="filter">
 			<span class="label">Toggle by type</span>
 			<span class="count error" id="error-count" tabindex="0" role="button" aria-label="Toggle errors">
 				<span class="left-bar" aria-hidden="true"></span>
-				<span class="body">1 errors</span>
+				<span class="body">7 errors</span>
 			</span>
 			<span class="count warning" id="warning-count" tabindex="0" role="button" aria-label="Toggle warnings">
 				<span class="left-bar" aria-hidden="true"></span>
-				<span class="body">0 warnings</span>
+				<span class="body">2 warnings</span>
 			</span>
 			<span class="count notice" id="notice-count" tabindex="0" role="button" aria-label="Toggle notices">
 				<span class="left-bar" aria-hidden="true"></span>
@@ -262,12 +262,62 @@
 			</span>
 		</p>
 		<ul class="issues">
+			<li class="issue warning">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Warning/Moderate</strong>: Heading levels should only increase by one</h3><p>Ensures the order of headings is semantically correct</p><p><a href="https://dequeuniversity.com/rules/axe/4.2/heading-order?application&#x3D;axeAPI">axe: heading-order</a></p><p class="context">&lt;h3 id&#x3D;&quot;pa11y-1&quot;&gt;&lt;a href&#x3D;&quot;https://github.com/pa1...&lt;/h3&gt;</p><p class="selector">(selector "#pa11y-1")</p></div>
+			</li>
 			<li class="issue error">
 				<div class="left-bar" aria-hidden="true"></div>
 				<div class="body">
 					<h3><strong>Error/Serious</strong>: Elements must have sufficient color contrast</h3><p>Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds</p><p><a href="https://dequeuniversity.com/rules/axe/4.2/color-contrast?application&#x3D;axeAPI">axe: color-contrast</a></p><p class="context">&lt;button class&#x3D;&quot;site-nav__link site-nav__link--button &quot; aria-haspopup&#x3D;&quot;true&quot;&gt;
 					Contributing
 				&lt;/button&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(4) &gt; button")</p></div>
+			</li>
+			<li class="issue warning">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Warning</strong>: Img element is marked so that it is ignored by Assistive Technology.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_1_1">htmlcs: WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2</a></p><p class="context">&lt;img src&#x3D;&quot;/resources/brand/logo.svg&quot; alt&#x3D;&quot;&quot; class&#x3D;&quot;site-brand__logo&quot;&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; a &gt; img")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 5.41:1. Recommendation:  change text colour to #074e7e.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_4_6">htmlcs: WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</a></p><p class="context">&lt;a href&#x3D;&quot;/&quot; class&#x3D;&quot;site-nav__link&quot; aria-current&#x3D;&quot;page&quot;&gt;
+					Home
+				&lt;/a&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(1) &gt; a")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 6.29:1. Recommendation:  change text colour to #115888.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_4_6">htmlcs: WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</a></p><p class="context">&lt;a href&#x3D;&quot;/news/&quot; class&#x3D;&quot;site-nav__link&quot;&gt;
+					News
+				&lt;/a&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(2) &gt; a")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 6.29:1. Recommendation:  change text colour to #115888.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_4_6">htmlcs: WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</a></p><p class="context">&lt;a href&#x3D;&quot;/tutorials/&quot; class&#x3D;&quot;site-nav__link&quot;&gt;
+					Tutorials
+				&lt;/a&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(3) &gt; a")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 6.29:1. Recommendation:  change text colour to #115888.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_4_6">htmlcs: WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</a></p><p class="context">&lt;button class&#x3D;&quot;site-nav__link site-nav__link--button &quot; aria-haspopup&#x3D;&quot;true&quot;&gt;
+					Contributing
+				&lt;/button&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(4) &gt; button")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 6.29:1. Recommendation:  change text colour to #115888.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_4_6">htmlcs: WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</a></p><p class="context">&lt;a href&#x3D;&quot;/contact/&quot; class&#x3D;&quot;site-nav__link&quot;&gt;
+					Contact
+				&lt;/a&gt;</p><p class="selector">(selector "html &gt; body &gt; div &gt; header &gt; nav &gt; ul &gt; li:nth-child(5) &gt; a")</p></div>
+			</li>
+			<li class="issue error">
+				<div class="left-bar" aria-hidden="true"></div>
+				<div class="body">
+					<h3><strong>Error</strong>: The heading structure is not logically nested. This h3 element should be an h2 to be properly nested.</h3><p><a href="https://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/#sc1_3_1">htmlcs: WCAG2AAA.Principle1.Guideline1_3.1_3_1_AAA.G141</a></p><p class="context">&lt;h3 id&#x3D;&quot;pa11y-1&quot;&gt;&lt;a href&#x3D;&quot;https://github.com/pa1...&lt;/h3&gt;</p><p class="selector">(selector "#pa11y-1")</p></div>
 			</li>
 		</ul>
 	</main>

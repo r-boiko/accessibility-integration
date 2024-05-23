@@ -1,0 +1,15 @@
+{
+  "urls": [
+    "https://pa11y.org/"
+  ],
+  "defaults": {
+    "timeout": 30000,
+    "wait": 500,
+    "log": {
+      "level": "debug"
+    }
+  },
+  "runners": [
+    "axe"
+  ]
+}
