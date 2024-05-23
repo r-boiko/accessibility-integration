@@ -53,4 +53,4 @@ jobs:
         run: curl -I https://r-boiko.github.io/accessibility-integration/
 
       - name: Run pa11y-ci
-        run: test:accessibility
+        run: npm run test:accessibility
