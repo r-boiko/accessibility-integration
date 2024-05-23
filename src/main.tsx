@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import axe from 'react-axe'
+import axe from '@axe-core/react'
 import './index.css'
 
 if (process.env.NODE_ENV !== 'production') {
