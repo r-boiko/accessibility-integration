@@ -52,5 +52,5 @@ jobs:
       - name: Check URL accessibility
         run: curl -I https://r-boiko.github.io/accessibility-integration/
 
-      - name: Run Pa11y CI
-        run: npm run test:accessibility
+      - name: Run pa11y-ci with debug
+        run: DEBUG=pa11y* npx pa11y-ci
