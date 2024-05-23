@@ -30,7 +30,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
-      - name: Run Pa11y accessibility tests
-        uses: dequelabs/pa11y-action@v2
+      - uses: browser-actions/setup-chrome@latest
+      - uses: Hesedi3l/pa11y-actions@v1
         with:
-          url: https://r-boiko.github.io/accessibility-integration
+         start: dev
