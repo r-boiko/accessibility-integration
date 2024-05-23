@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "test:accessibility": "DEBUG=pa11y* pa11y-ci https://r-boiko.github.io/accessibility-integration/",
+    "test:accessibility": "pa11y-ci",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
