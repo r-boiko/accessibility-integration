@@ -31,6 +31,6 @@ jobs:
           publish_dir: ./dist
 
       - name: Run Pa11y accessibility tests
-        uses: mikaelvesavuori/a11ytester-action@v1
+        uses: dequelabs/pa11y-action@v2
         with:
-          urls: '[\"https://r-boiko.github.io/accessibility-integration/\"]'
+          url: https://r-boiko.github.io/accessibility-integration
