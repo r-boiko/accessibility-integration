@@ -1,7 +1,8 @@
 {
   "defaults": {
     "standard": "WCAG2AA",
-    "timeout": 60000
+     "runners": ["axe", "htmlcs"],
+      "reporters": ["pa11y-ci-reporter-html", "cli"]
   },
   "urls": [
     "https://pa11y.org/",
