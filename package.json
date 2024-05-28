@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "test:accessibility": "pa11y",
-    "test:pa11y-ci": "pa11y-ci --config pa11y-ci.json",
+    "test:accessibility": "pa11y http://localhost:5173/ --config pa11y.json",
+    "test:pa11y-ci": "pa11y-ci",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

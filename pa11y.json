@@ -1,0 +1,8 @@
+{
+  "timeout": 30000,
+  "standard": "WCAG2AA",
+  "ignore": [
+    "notice",
+    "warning"
+  ]
+}
