@@ -1,0 +1,81 @@
+.accessibility-test-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+}
+
+.accessibility-header {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.accessibility-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.accessibility-nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.accessibility-nav ul li a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.accessibility-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.accessibility-main {
+    padding: 20px;
+}
+
+.accessibility-main section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.accessibility-main section h2 {
+    margin-top: 0;
+}
+
+.accessibility-main button {
+    background: #bb86fc;
+    color: #121212;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.accessibility-main button:hover {
+    background: #9b68e2;
+}
+
+.accessibility-main form div {
+    margin-bottom: 10px;
+}
+
+.accessibility-footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e1e;
+    color: #e0e0e0;
+    width: 100%;
+}
+
+.accessibility-footer a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.accessibility-footer a:hover {
+    text-decoration: underline;
+}
