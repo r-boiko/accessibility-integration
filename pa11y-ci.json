@@ -1,0 +1,13 @@
+{
+  "defaults": {
+    "timeout": 30000,
+    "standard": "WCAG2AA",
+    "ignore": [
+      "notice",
+      "warning"
+    ]
+  },
+  "urls": [
+    "https://r-boiko.github.io/accessibility-integration/"
+  ]
+}
