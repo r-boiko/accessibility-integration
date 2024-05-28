@@ -25,9 +25,9 @@ jobs:
         run: npm install
 
       - name: Run the project
-        run: npm run dev & npx wait-on http://localhost:5173/accessibility-integration
+        run: npm run dev & npx wait-on http://localhost:5173/
 
       - name: Run Axe
         run: |
           npm install -g @axe-core/cli
-          axe http://localhost:5173/accessibility-integration --exit
+          axe http://localhost:5173/ --exit
